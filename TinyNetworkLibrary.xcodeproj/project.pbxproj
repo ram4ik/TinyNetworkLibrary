@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		847F2C5C2CCE5A89005C872E /* episodes.json in Resources */ = {isa = PBXBuildFile; fileRef = 847F2C5B2CCE5A89005C872E /* episodes.json */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		847F2C4A2CCE57DF005C872E /* TinyNetworkLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyNetworkLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		847F2C5B2CCE5A89005C872E /* episodes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = episodes.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		847F2C412CCE57DF005C872E = {
 			isa = PBXGroup;
 			children = (
+				847F2C5B2CCE5A89005C872E /* episodes.json */,
 				847F2C4C2CCE57DF005C872E /* TinyNetworkLibrary */,
 				847F2C4B2CCE57DF005C872E /* Products */,
 			);
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847F2C5C2CCE5A89005C872E /* episodes.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
